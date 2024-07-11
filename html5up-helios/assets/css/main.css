@@ -198,7 +198,7 @@ input, select, textarea {
 		border: 0;
 		top: 4.5em;
 		margin-bottom: 9em;
-		height: 6px;
+		height: 20px;
 		border-top: solid 1px rgba(128, 128, 128, 0.2);
 		border-bottom: solid 1px rgba(128, 128, 128, 0.2);
 	}
@@ -208,8 +208,7 @@ input, select, textarea {
 			position: absolute;
 			top: -8px;
 			display: block;
-			width: 1px;
-			height: 21px;
+			height: 15px;
 			background: rgba(128, 128, 128, 0.2);
 		}
 
@@ -2176,7 +2175,7 @@ input, select, textarea {
 
 	#header {
 		position: relative;
-		background-image: url("../../images/header.jpg");
+		background-image: url("../../images/sip_n_play_ros.jpg");
 		/*background-color: darkseagreen;*/
 		background-size: cover;
 		background-position: center center;
@@ -2207,7 +2206,7 @@ input, select, textarea {
 		}
 
 			#header header > p {
-				font-size: 1.25em;
+				font-size: 2.5em;
 				margin: 0;
 			}
 
@@ -2258,7 +2257,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #69b193;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2266,10 +2265,10 @@ input, select, textarea {
 			width: 100%;
 			height: 100%;
 			opacity: 0;
-			-moz-transition: opacity 2.5s ease-in-out;
-			-webkit-transition: opacity 2.5s ease-in-out;
-			-ms-transition: opacity 2.5s ease-in-out;
-			transition: opacity 2.5s ease-in-out;
+			-moz-transition: opacity 1.5s ease-in-out;
+			-webkit-transition: opacity 1.5s ease-in-out;
+			-ms-transition: opacity 1.5s ease-in-out;
+			transition: opacity 1.5s ease-in-out;
 			-moz-transition-delay: 0.5s;
 			-webkit-transition-delay: 0.5s;
 			-ms-transition-delay: 0.5s;
@@ -2330,7 +2329,7 @@ input, select, textarea {
 				margin: -9px 0.5em 0 0.5em;
 				border-radius: 0.5em;
 				padding: 0.85em;
-				border: solid 1px transparent;
+				border: solid 20-px transparent;
 				-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-ms-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -2347,6 +2346,7 @@ input, select, textarea {
 					text-decoration: none;
 					border: 0;
 					outline: 0;
+					font-size: 32px;
 				}
 
 				#nav > ul > li > ul {
@@ -2409,7 +2409,7 @@ input, select, textarea {
 /* Banner */
 
 	#banner {
-		background: #fff;
+		background: #42d69d;
 		text-align: center;
 		padding: 4.5em 0 4.5em 0;
 		margin-bottom: 0;
