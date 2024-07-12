@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $message = htmlspecialchars($_POST['message']);
 
-    $to = 'qyang40@jh.edu';
+    $to = 'sipnplaynyc@gmail.com';
     $subject = 'New Feedback from ' . $name;
     $headers = 'From: ' . $email . "\r\n" .
                'Reply-To: ' . $email . "\r\n" .
