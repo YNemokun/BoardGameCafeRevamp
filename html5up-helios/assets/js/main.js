@@ -215,3 +215,47 @@
 		});
 
 })(jQuery);
+
+document.addEventListener('DOMContentLoaded', function() {
+	var calendarEl = document.getElementById('calendar');
+	var calendar = new FullCalendar.Calendar(calendarEl, {
+		eventClick: function(info) {
+			alert('Event: ' + info.event.title);
+		
+			// change the border color just for fun
+			info.el.style.borderColor = 'green';
+		  },
+		  
+		initialView: 'dayGridMonth',
+		headerToolbar: {
+			left: 'prev,next today',
+			center: 'title',
+			right:'dayGridMonth,timeGridWeek,timeGridDay'
+		},
+		events: [
+			{
+				title: 'Lorcana Learn to Play 6pm',
+				start: '2024-07-22T18:00:00'
+			},
+			{
+				title: 'Bloomburrow Pre-release 6pm',
+				start: '2024-07-26T18:00:00'
+			},
+			{
+				title: 'Bloomburrow Pre-release 11am',
+				start: '2024-07-27T11:00:00'
+			},
+			{
+				title: 'Bloomburrow Pre-release 5pm',
+				start: '2024-07-27T17:00:00'
+			},
+			{
+				title: 'Bloomburrow Pre-release 6pm',
+				start: '2024-07-29T18:00:00'
+			},
+
+			// Add more events here
+		]
+	});
+	calendar.render();
+});
